@@ -9,7 +9,7 @@ import PortafolioSection from './components/PortafolioSection';
 import VisionSection from './components/VisionSection';
 import LoginSection from './components/LoginSection';
 import AdminDashboard from './components/Admin/AdminDashboard';
-import ClientDashboard from './components/ClientDashboard';
+import ClientDashboard from './components/Admin/ClientDashboard';
 
 const App = () => {
   const [currentPage, setCurrentPage] = useState('home');
